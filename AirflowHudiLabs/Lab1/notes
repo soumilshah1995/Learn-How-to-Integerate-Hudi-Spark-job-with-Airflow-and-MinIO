@@ -1,0 +1,13 @@
+
+spark-conn
+spark://spark-master
+7077
+
+docker-compose up --build -d
+docker-compose restart webserver
+
+
+ssh -R 9000:localhost:9000 \
+   abc.serveo.net
+
+
