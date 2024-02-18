@@ -1,0 +1,15 @@
+
+spark-conn
+spark://spark-master
+7077
+
+docker-compose up --build -d
+docker-compose restart webserver
+docker-compose restart scheduler
+
+
+https://github.com/soumilshah1995/An-easy-to-use-Python-utility-class-for-accessing-incremental-data-from-Hudi-Data-Lakes
+
+
+export JAVA_HOME=/opt/homebrew/Cellar/openjdk@11/11.0.22/libexec/openjdk.jdk/Contents/Home
+
