@@ -10,14 +10,22 @@ docker-compose up --build -d
 if webserver does not starts you can do
 docker-compose restart webserver
 
+```
 
-Create Spark Connection in Airflow
+
+### Create Spark Connection in Airflow
+![image](https://github.com/soumilshah1995/Learn-How-to-Integerate-Hudi-Spark-job-with-Airflow-and-MinIO/assets/39345855/77d54106-1462-48bf-9737-e20dc2bc8962)
+
+
 
 ALso Make sure Fwd the port
+
+```
 ssh -R 9000:localhost:9000 \
    abc.serveo.net
 
 ```
 
+   
 ### Resources 
 * https://github.com/airscholar/SparkingFlow
